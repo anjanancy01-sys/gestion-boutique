@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = "https://gestion-boutique-u93b.onrender.com/api";
 
 // --- Session : le jeton est gardé dans le navigateur (localStorage) ---
 export const session = {
