@@ -11,5 +11,5 @@ router.register(r'ventes', VenteViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls)),
+   path('api/', include('boutique.urls')),
 ]
